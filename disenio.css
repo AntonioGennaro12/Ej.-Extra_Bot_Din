@@ -1,0 +1,79 @@
+body, #opciones, #opciones-btn{
+    display: grid;
+    place-content: center;
+}
+
+#opciones {
+    border: 2px double blue;
+    display: inline-block;
+    padding: 10px;
+    background-color: aqua;
+    place-content: center;
+}
+
+p {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: darkblue;
+}
+
+#cnt-h1 {
+    /* display: grid;*/
+    display: none;
+    place-content: center; 
+}
+
+h1{
+    border: 3px double darkblue;
+    border-radius: 10px;
+    background-color: blue;
+    color: aqua;
+    display: inline-block; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input {
+    border: 3px double darkblue;
+    border-radius: 10px;
+    background-color: aqua;
+    text-align: center;
+    font-size: medium;
+    color: blue;
+    font-weight: bold;
+}
+#op-btn{
+    border: 2px double darkblue;
+    border-radius: 10px;
+    background-color: blue;
+    color: aqua;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    margin: 2px;
+}
+
+#botones{
+    border: 2px double blue;
+    padding: 1px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    margin-top: 1vh;
+    max-height: none;
+    
+}
+#botones button {
+     width: 146px;
+    height: 70px;
+    border: 4px double red;
+    border-radius: 10px;;
+    background-color: beige;
+    font-family: 'Lucida Sans';
+    font-size: smaller;
+    text-align: center;
+    margin: 1px;
+}
